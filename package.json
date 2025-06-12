@@ -1,34 +1,24 @@
 {
-	"name": "@natoboram/gigachad.ts",
+	"name": "@coderabbitai/ast-grep-langs",
 	"version": "0.0.0",
-	"description": "The most gigachad project setup for TypeScript.",
+	"description": " Exports all first-party ast-grep languages",
 	"keywords": [
-		"dependabot",
-		"eslint",
-		"gigachad",
-		"markdownlint",
-		"prettier",
-		"project-template",
-		"typescript",
-		"vitest"
+		"ast-grep"
 	],
-	"homepage": "https://github.com/NatoBoram/gigachad.ts",
+	"homepage": "https://github.com/coderabbitai/ast-grep-langs",
 	"bugs": {
-		"url": "https://github.com/NatoBoram/gigachad.ts/issues"
+		"url": "https://github.com/coderabbitai/ast-grep-langs/issues"
 	},
-	"license": "Unlicense",
+	"license": "Apache-2.0",
 	"author": {
-		"name": "Nato Boram",
-		"url": "https://github.com/NatoBoram"
+		"name": "CodeRabbit",
+		"url": "https://coderabbit.ai",
+		"email": "support@coderabbit.ai"
 	},
-	"funding": [
+	"contributors": [
 		{
-			"type": "patreon",
-			"url": "https://www.patreon.com/NatoBoram"
-		},
-		{
-			"type": "individual",
-			"url": "https://paypal.me/NatoBoram/5"
+			"name": "Nato Boram",
+			"url": "https://github.com/NatoBoram"
 		}
 	],
 	"files": [
@@ -36,30 +26,51 @@
 		"!dist/**/*.test.*"
 	],
 	"main": "dist/index.js",
-	"bin": {
-		"gigachad": "dist/main.js"
-	},
-	"repository": "github:NatoBoram/gigachad.ts",
+	"repository": "github:coderabbitai/ast-grep-langs",
 	"scripts": {
 		"build": "tsgo",
 		"clean": "rm -rf dist docs node_modules tsconfig.tsbuildinfo",
-		"dev": "node ./src/main.ts",
-		"docker": "pnpm run docker:build && pnpm run docker:run",
-		"docker:build": "docker build -t gigachad.ts .",
-		"docker:kill": "docker ps --format '{{.Image}} {{.ID}}' | grep gigachad.ts | awk '{print $2}' | xargs docker kill",
-		"docker:run": "docker run gigachad.ts",
 		"docs": "typedoc",
 		"format": "prettier --write .",
 		"lint": "eslint . && markdownlint-cli2 \"**/*.md\" && prettier --check .",
 		"lint:fix": "eslint --fix --quiet .; markdownlint-cli2 \"**/*.md\" --fix; prettier --list-different --write .",
-		"start": "node dist/main.js",
 		"test": "vitest run",
 		"test:coverage": "vitest run --coverage",
 		"test:watch": "vitest"
 	},
+	"dependencies": {
+		"@ast-grep/lang-angular": "^0.0.4",
+		"@ast-grep/lang-bash": "^0.0.3",
+		"@ast-grep/lang-c": "^0.0.2",
+		"@ast-grep/lang-cpp": "^0.0.2",
+		"@ast-grep/lang-csharp": "^0.0.1",
+		"@ast-grep/lang-css": "^0.0.3",
+		"@ast-grep/lang-dart": "^0.0.3",
+		"@ast-grep/lang-elixir": "^0.0.3",
+		"@ast-grep/lang-go": "^0.0.2",
+		"@ast-grep/lang-haskell": "^0.0.2",
+		"@ast-grep/lang-html": "^0.0.3",
+		"@ast-grep/lang-java": "^0.0.3",
+		"@ast-grep/lang-javascript": "^0.0.3",
+		"@ast-grep/lang-json": "^0.0.3",
+		"@ast-grep/lang-kotlin": "^0.0.2",
+		"@ast-grep/lang-lua": "^0.0.3",
+		"@ast-grep/lang-php": "^0.0.3",
+		"@ast-grep/lang-python": "^0.0.1",
+		"@ast-grep/lang-ruby": "^0.0.3",
+		"@ast-grep/lang-rust": "^0.0.3",
+		"@ast-grep/lang-scala": "^0.0.3",
+		"@ast-grep/lang-sql": "^0.0.3",
+		"@ast-grep/lang-swift": "^0.0.3",
+		"@ast-grep/lang-toml": "^0.0.5",
+		"@ast-grep/lang-tsx": "^0.0.2",
+		"@ast-grep/lang-typescript": "^0.0.3",
+		"@ast-grep/lang-yaml": "^0.0.2",
+		"@ast-grep/napi": "^0.38.5"
+	},
 	"devDependencies": {
 		"@eslint/js": "^9.28.0",
-		"@typescript/native-preview": "^7.0.0-dev",
+		"@typescript/native-preview": "7.0.0-dev.20250612.1",
 		"@vitest/coverage-v8": "3.2.1",
 		"eslint": "^9.28.0",
 		"eslint-config-prettier": "^10.1.5",
@@ -69,8 +80,8 @@
 		"prettier": "^3.5.3",
 		"typedoc": "^0.28.5",
 		"typescript": "5.8.3",
-		"typescript-eslint": "^8.33.1",
-		"vitest": "^3.2.1"
+		"typescript-eslint": "^8.34.0",
+		"vitest": "^3.2.3"
 	},
 	"type": "module",
 	"exports": {
