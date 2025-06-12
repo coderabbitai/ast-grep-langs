@@ -88,7 +88,7 @@ interface StaticLangRegistrations {
 	readonly Yaml: typeof yaml
 
 	/** To satisfy `DynamicLangRegistrations`. */
-	[langName: string]: StaticLangRegistration
+	readonly [langName: string]: StaticLangRegistration
 }
 
 /**
