@@ -1,0 +1,51 @@
+name: Node.js Publish
+
+on:
+  push:
+    tags:
+      - v*
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Upload the release files
+      id-token: write # Add `--provenance`
+      packages: write # Publish the package
+
+    if: github.actor != 'nektos/act'
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: latest
+      - run: pnpm install
+      - run: pnpm build
+
+      - uses: actions/setup-node@v4
+        with:
+          registry-url: https://npm.pkg.github.com
+          scope: "@natoboram"
+      - run: pnpm publish --access public --no-git-checks --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          registry-url: https://registry.npmjs.org
+          scope: "@natoboram"
+      - run: pnpm publish --access public --no-git-checks --provenance
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+
+      - run: pnpm pack --pack-gzip-level 9
+      - run: gh release create "$VERSION" --generate-notes --title "$VERSION" --verify-tag natoboram-gigachad.ts-*.tgz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ github.ref_name }}

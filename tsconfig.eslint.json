@@ -1,0 +1,5 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": { "checkJs": true },
+	"include": ["eslint.config.ts", "src", "vitest.config.ts"]
+}
