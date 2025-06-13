@@ -7,7 +7,7 @@ Exports all first-party ast-grep languages
 ## Installation
 
 ```sh
-pnpm i @coderabbitai/ast-grep-langs
+pnpm i @coderabbitai/ast-grep-langs @ast-grep/napi
 ```
 
 ## Usage
