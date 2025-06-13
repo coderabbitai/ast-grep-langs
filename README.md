@@ -16,5 +16,7 @@ pnpm i @coderabbitai/ast-grep-langs @ast-grep/napi
 import { registerDynamicLanguage } from "@ast-grep/napi"
 import { langs } from "@coderabbitai/ast-grep-langs"
 
+// @ts-expect-error Type `StaticLangRegistration` is missing the following
+// properties from type `LangRegistration`: `libraryPath`, `extensions`.
 registerDynamicLanguage(langs)
 ```
