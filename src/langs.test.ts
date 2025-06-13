@@ -12,7 +12,7 @@ describe("langs", () => {
 
 	// A newly supported language
 	test(Lang.Dart, ({ expect }) => {
-		const sg = parse(Lang.Dart, 'var x = "Hello, world!";"')
+		const sg = parse(Lang.Dart, 'var x = "Hello, world!";')
 		const kind = sg.root().kind()
 		expect(kind).equal("program")
 	})
