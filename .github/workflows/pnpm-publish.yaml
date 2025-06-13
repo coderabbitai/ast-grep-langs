@@ -31,7 +31,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           registry-url: https://npm.pkg.github.com
-          scope: "@natoboram"
+          scope: "@coderabbitai"
       - run: pnpm publish --access public --no-git-checks --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -39,13 +39,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           registry-url: https://registry.npmjs.org
-          scope: "@natoboram"
+          scope: "@coderabbitai"
       - run: pnpm publish --access public --no-git-checks --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
 
       - run: pnpm pack --pack-gzip-level 9
-      - run: gh release create "$VERSION" --generate-notes --title "$VERSION" --verify-tag natoboram-gigachad.ts-*.tgz
+      - run: gh release create "$VERSION" --generate-notes --title "$VERSION" --verify-tag coderabbitai-ast-grep-langs-*.tgz
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ github.ref_name }}

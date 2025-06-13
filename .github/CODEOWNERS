@@ -1,1 +1,2 @@
-* @NatoBoram
+*.ts @coderabbitai/typescript-reviewers
+*.tsx @coderabbitai/react-reviewers

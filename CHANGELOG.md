@@ -8,6 +8,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com) and this p
 
 ### Added
 
+- A `Lang` enum with the names of all first-party languages.
+- A `langs` object with all first-party languages.
+
 ### Changed
 
 ### Deprecated
@@ -18,14 +21,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com) and this p
 
 ### Security
 
-## [0.0.0] - 2025-06-04
-
-This release doesn't actually exist; it's a placeholder to demonstrate the changelog format.
-
-### Added
-
-- A changelog following the [Keep a Changelog](https://keepachangelog.com) format.
-
 ## Types of changes
 
 - `Added` for new features.
@@ -34,6 +29,3 @@ This release doesn't actually exist; it's a placeholder to demonstrate the chang
 - `Removed` for now removed features.
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
-
-[Unreleased]: https://github.com/NatoBoram/gigachad.ts/compare/v0.0.0...HEAD
-[0.0.0]: https://github.com/NatoBoram/gigachad.ts/releases/tag/v0.0.0
