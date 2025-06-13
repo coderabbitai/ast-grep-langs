@@ -1,6 +1,6 @@
 {
 	"name": "@coderabbitai/ast-grep-langs",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": " Exports all first-party ast-grep languages",
 	"keywords": [
 		"ast-grep"
