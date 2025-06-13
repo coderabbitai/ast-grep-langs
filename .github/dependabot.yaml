@@ -19,6 +19,9 @@ updates:
         update-types:
           - minor
         dependency-type: production
+      ast-grep:
+        patterns:
+          - "@ast-grep/*"
       eslint:
         patterns:
           - "*eslint*"
