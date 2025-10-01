@@ -66,7 +66,7 @@
 		"@ast-grep/lang-tsx": "^0.0.3",
 		"@ast-grep/lang-typescript": "^0.0.3",
 		"@ast-grep/lang-yaml": "^0.0.2",
-		"@ast-grep/napi": "^0.38.5"
+		"@ast-grep/napi": "^0.39.5"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.29.0",
