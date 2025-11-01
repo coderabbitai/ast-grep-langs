@@ -31,7 +31,7 @@ jobs:
       - run: pnpm run test
       - run: pnpm run test:coverage
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         if: github.actor != 'dependabot[bot]' && github.actor != 'nektos/act'
         with:
           name: coverage
