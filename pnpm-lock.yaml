@@ -9,86 +9,86 @@ importers:
   .:
     dependencies:
       '@ast-grep/lang-angular':
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^0.0.6
+        version: 0.0.6
       '@ast-grep/lang-bash':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-c':
-        specifier: ^0.0.2
-        version: 0.0.2
-      '@ast-grep/lang-cpp':
-        specifier: ^0.0.2
-        version: 0.0.2
-      '@ast-grep/lang-csharp':
-        specifier: ^0.0.2
-        version: 0.0.2
-      '@ast-grep/lang-css':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-dart':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-elixir':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-go':
-        specifier: ^0.0.2
-        version: 0.0.2
-      '@ast-grep/lang-haskell':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-html':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-java':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-javascript':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-json':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-kotlin':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-lua':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-php':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-python':
-        specifier: ^0.0.2
-        version: 0.0.2
-      '@ast-grep/lang-ruby':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-rust':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-scala':
-        specifier: ^0.0.3
-        version: 0.0.3
-      '@ast-grep/lang-sql':
         specifier: ^0.0.4
         version: 0.0.4
-      '@ast-grep/lang-swift':
+      '@ast-grep/lang-c':
         specifier: ^0.0.3
         version: 0.0.3
-      '@ast-grep/lang-toml':
+      '@ast-grep/lang-cpp':
+        specifier: ^0.0.3
+        version: 0.0.3
+      '@ast-grep/lang-csharp':
+        specifier: ^0.0.3
+        version: 0.0.3
+      '@ast-grep/lang-css':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-dart':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-elixir':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-go':
+        specifier: ^0.0.3
+        version: 0.0.3
+      '@ast-grep/lang-haskell':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-html':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-java':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-javascript':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-json':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-kotlin':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-lua':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-php':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-python':
+        specifier: ^0.0.3
+        version: 0.0.3
+      '@ast-grep/lang-ruby':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-rust':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-scala':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-sql':
         specifier: ^0.0.5
         version: 0.0.5
+      '@ast-grep/lang-swift':
+        specifier: ^0.0.5
+        version: 0.0.5
+      '@ast-grep/lang-toml':
+        specifier: ^0.0.6
+        version: 0.0.6
       '@ast-grep/lang-tsx':
-        specifier: ^0.0.3
-        version: 0.0.3
+        specifier: ^0.0.4
+        version: 0.0.4
       '@ast-grep/lang-typescript':
+        specifier: ^0.0.4
+        version: 0.0.4
+      '@ast-grep/lang-yaml':
         specifier: ^0.0.3
         version: 0.0.3
-      '@ast-grep/lang-yaml':
-        specifier: ^0.0.2
-        version: 0.0.2
       '@ast-grep/napi':
         specifier: ^0.38.5
         version: 0.38.5
@@ -101,13 +101,13 @@ importers:
         version: 7.0.0-dev.20250613.1
       '@vitest/coverage-v8':
         specifier: 3.2.3
-        version: 3.2.3(vitest@3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))
+        version: 3.2.3(vitest@3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1))
       eslint:
         specifier: ^9.29.0
         version: 9.29.0(jiti@2.4.2)
       eslint-config-prettier:
         specifier: ^10.1.5
-        version: 10.1.5(eslint@9.29.0(jiti@2.4.2))
+        version: 10.1.8(eslint@9.29.0(jiti@2.4.2))
       globals:
         specifier: ^16.2.0
         version: 16.2.0
@@ -122,7 +122,7 @@ importers:
         version: 3.5.3
       typedoc:
         specifier: ^0.28.5
-        version: 0.28.5(typescript@5.8.3)
+        version: 0.28.14(typescript@5.8.3)
       typescript:
         specifier: 5.8.3
         version: 5.8.3
@@ -131,7 +131,7 @@ importers:
         version: 8.34.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       vitest:
         specifier: ^3.2.3
-        version: 3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)
+        version: 3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1)
 
 packages:
 
@@ -139,218 +139,218 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@ast-grep/lang-angular@0.0.4':
-    resolution: {integrity: sha512-8SWB3bZAJ7+G3/XWBXPpbqAhNiteOmCx/VqSJdUSSFhPhntGemPWdvbt7E46pgh8xchfG9ooI18MhdSJupiSnA==}
+  '@ast-grep/lang-angular@0.0.6':
+    resolution: {integrity: sha512-Z03kDOiAwJ9B4mF5ThY+OJWblFC1iWI3rs9tckVHdG6KmrqXO8M7lNUYZwymX/AgTrFIrdHAotmnhZAJIR5zjw==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-bash@0.0.3':
-    resolution: {integrity: sha512-6CrUcR4UFPRbToP07M2KHr2Bpit3j7rc2jeG+1y0n7H8EvHHujyC2JLW6/clNyNqpKMLH/6EYROwbbn2/sRAMQ==}
+  '@ast-grep/lang-bash@0.0.4':
+    resolution: {integrity: sha512-i9Zpv+phyy94dE5hv5xZT3qqJ6YINi/YhGGhmJvagl+uWBwEkD+Ve5cDqwH+AkGad2xy8+decNE4TkllJEGPww==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-c@0.0.2':
-    resolution: {integrity: sha512-PAhImywspkfubiHbgSg0SRJKxirPovjKYcJkdlpieN0EjpSBrqXmAhi4Ku8J3AumegMC0n/J6KmRzjM1VpfplA==}
+  '@ast-grep/lang-c@0.0.3':
+    resolution: {integrity: sha512-guoNNaQPfQsSZGD5McNVqJgD31y8egyQZxJL+vVm3uPrODbRKcTjgx9ZMFFIgI+lUHAJHZkMN8QJ2bo11FWXtQ==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-cpp@0.0.2':
-    resolution: {integrity: sha512-e4WZAHWJ/uZ+JPw0lfXsGTnRMuh/oQilm8CLraDSR6HRsw+tepscISdFe+ufui+88eoTSiatvk8q91W7u8loqA==}
+  '@ast-grep/lang-cpp@0.0.3':
+    resolution: {integrity: sha512-3xO6zrW/CV/U1v3YPl0y2ssaVnUWBpj4LeTnnygKJAaDQgw8RPjQeKmXdY6bOf8govOdquOGFmEmBPUkxZrsVg==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-csharp@0.0.2':
-    resolution: {integrity: sha512-nj0zXiBwq0u9P/iSB0enwnM2h7XGHHgZ+HsBYnoRPhLdxcgWp4bHLh97QftCepFMkuuzGvyghJ4Nqs+Hy0IrDg==}
+  '@ast-grep/lang-csharp@0.0.3':
+    resolution: {integrity: sha512-N7FrEgoKg6yjKDkrDDVH0ckIKgLGn/IIbtENVNeAnar4zP7xXLQQiuZ9iZJl4Hu2BWOZZ+ssk2w5qN4tdoFHnA==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-css@0.0.3':
-    resolution: {integrity: sha512-PCGymPecuYppS7fA+DZNFfyEO3J7Vio0ejK+NR9drRenFFYSaatHcClYbdXhRZxVTg0IRXo2zWGjroP01CEI8Q==}
+  '@ast-grep/lang-css@0.0.4':
+    resolution: {integrity: sha512-+CIBVOE+NHdWkiD64FFajy5i/CjQCXJ4JVVd3Q89AAEJgKyJ7yr5VBU5hs4wD+JMiuTBUCPHxcTfVonqHhQt9Q==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-dart@0.0.3':
-    resolution: {integrity: sha512-5t0C4q4Ns+IqmCB0D75Q5JtGnfSTUtYn9Vl2vb6V1/kS8Utr/imNpwWntl+/MAvMMhlYC8XR6IpzNbs7Nbljlg==}
+  '@ast-grep/lang-dart@0.0.4':
+    resolution: {integrity: sha512-VtQLhmcztYeNNwGnI81+d8I9lfrKkhGxuAuALr/vZEpl3r0HVqd17Frtx4POe9AUsmdSHEx6X0IR2Eput5Ftzg==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-elixir@0.0.3':
-    resolution: {integrity: sha512-u2Os40nueyQKPduOoOjCAivrYalG1cQWM6zyXNlto1JHTFtbuCVPYsGsZ1KKnBgYr9c+YT26guzXlYwnoO/KNg==}
+  '@ast-grep/lang-elixir@0.0.4':
+    resolution: {integrity: sha512-3Nt1hVSQHKcx2Gizy1bWqTVDVKo9pQYwrz0YWp4tOEMfLLku54NQJvNOdpPnh7ZUNgofKGNyNs6sVuTGcaBdFw==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-go@0.0.2':
-    resolution: {integrity: sha512-RFlSWu6z2EOvnUNRI7uNysLo40Hi3eH95sqKYet59kRgdjbDFPii+DfBohl7uHPyDRiS7tPkiYXnpOpZlrtAXQ==}
+  '@ast-grep/lang-go@0.0.3':
+    resolution: {integrity: sha512-QUqeo+X9/juW0c1wCfJHVs1LaSehMwk9X5T8uBx6jvZmom8bm7a2NMiLqnVfmtzFNS+m8SRJa+h44whFQqtClA==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-haskell@0.0.3':
-    resolution: {integrity: sha512-fGQJu2YWWxcE+Y4BRkhz1dgI1xe2qv3FpAS9hRhPI+GxYwo9quGB92+GEfxn5xMcZEJKbBf9E9jaSdeDkXwOGg==}
+  '@ast-grep/lang-haskell@0.0.4':
+    resolution: {integrity: sha512-70IZFX6+JDUqQtbnGq9GYMtxeckv3qMSYSfkgXIEgKtv6q/R1tlaIpFC6ZYdXDK93iwZ/bV/mEr3IjWujoQbDQ==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-html@0.0.3':
-    resolution: {integrity: sha512-RMOcT0f04sxZoezzhvp+gh8VdjJsE7+q3oXXXghLZG+ul5AX0jPe++T3QsX5vCSLr9k3JRrbbukSt7RLhnEthg==}
+  '@ast-grep/lang-html@0.0.4':
+    resolution: {integrity: sha512-NUhEIvURHUcwk1mxcIfDtuDDZOOHGPpO+r6jD5ctPVnTqIGW3uDxLIcWPgUfPqj3yz/Pqk8phdbEdnTLFd8vrQ==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-java@0.0.3':
-    resolution: {integrity: sha512-xZ4Pjcqlo971j8xnS7TqD83rzvcEiWEaPAzNZAbM06UdJeZGYvZcjenfmKtCVE16pOXEXbh4p2TNz5c21Vtp1A==}
+  '@ast-grep/lang-java@0.0.4':
+    resolution: {integrity: sha512-x2bacyZ3ui40q0Ne8Sx5x1Ii0bBy3NmUbOY+FadQGUHEyZciR82XisHVbYNadB/NNTxLcqmXJv6szd91S1xirA==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-javascript@0.0.3':
-    resolution: {integrity: sha512-TtuRhpjb3qqOWqOuhc/SAoERN/MYybjs9dCvWF08AJ0/Qr9F+lqC6bRgJ8M20u5wqFd5gBP9a5QDM7SqT6b/6A==}
+  '@ast-grep/lang-javascript@0.0.4':
+    resolution: {integrity: sha512-HdvVaQ5UsW9+ay521nKRtyiKcag2atJIg2fjQrjrSl4BWnRL+bfkzQqohtpxTRJTbD9/TKOn2/dMfl7yOCuMyw==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-json@0.0.3':
-    resolution: {integrity: sha512-rixdx1oiQXliehQmg6zDsv4iuYjqenfLk+LelR3WwG0HDlU8XRIMeeN9WorgJrFh+I9m20VwSyZ5awrKzMzjsw==}
+  '@ast-grep/lang-json@0.0.4':
+    resolution: {integrity: sha512-ig+N5Ub+gV3qEBOZeKOS3e2ms/pYPHfbtC2VyEcW9EnWfRwYChVDEaMtmv8UxnWbAIRIrxHoGUnCh0L4slIbRQ==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-kotlin@0.0.3':
-    resolution: {integrity: sha512-sfV1gr9ouLG0Qfm4G/N1O/Z+UjMZIyFhvQNfICAXG6LaEY8ntI4IWYLEdsYAPticV4kfV2wgh4HQr8E90ysHng==}
+  '@ast-grep/lang-kotlin@0.0.4':
+    resolution: {integrity: sha512-220biX78cRzcKYzYkJD+BxxA0PdNdJQtWQ/bPC8SUe11l45cuRDv+y3HNew9s5r4VTiUVtKRokVw7j6IwWDYRw==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-lua@0.0.3':
-    resolution: {integrity: sha512-tsgG2M/0T0mJDjdLeeGGnM5bZIpl+kP4432yc7+WOGCgUMFuzKvIhAZC02GjmUbITxlNrcEHW317WMlA2pbvIw==}
+  '@ast-grep/lang-lua@0.0.4':
+    resolution: {integrity: sha512-QVe4g8Wg+GupcxTumHB4RYY47O3EpTovQsfivUUJ3AXJMcMYPwNLcSOqHq1W2IrqeXnmQHTKuO7eTH02ZRUb6Q==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-php@0.0.3':
-    resolution: {integrity: sha512-DkLPUnPq0uDTKPqzuQfBsZnWbzep3GYiZ8blIKu3Z8sCH4nUpMynaCR9+1Q/vvfds0Q+3/5GR/vuibYSNqNgmA==}
+  '@ast-grep/lang-php@0.0.4':
+    resolution: {integrity: sha512-0H1B8EgcyEzbCjzweVTJ6LX2gHqdMb+Grr6Ic2PeBHXPpAlMOkl+XycHE1M9+6EAC5kgtLbKQ5eL8qvKKgw1pA==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-python@0.0.2':
-    resolution: {integrity: sha512-1KvUXcO2962mRGxMcngJNqPk7U6d7r2W3sxuElxNz/c7Utmabk4li6vrvYnxpd47poQuwZWLhsUfC+zhP1PNvg==}
+  '@ast-grep/lang-python@0.0.3':
+    resolution: {integrity: sha512-nbcXhzLWGNDCzEQvH5XVRz0SRJIVvW50zaN8Do2SZGDfibnTdytJKyFo1agL6fYW/KpWNRMNn+SwdS98NV6FFQ==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-ruby@0.0.3':
-    resolution: {integrity: sha512-Gp2O/1o/xLRdJWf9D5Ka2/iTdTmrO/JvflVYZtTZT57G/LqU5UKQ7kSpNBqZT0c4WFd6QQvKl/a/MilRdHS+1w==}
+  '@ast-grep/lang-ruby@0.0.4':
+    resolution: {integrity: sha512-0gFjwD6vzRA+R6iL/4hW+4/O2wUTtMZEGi04pEdJw2ReeEbn4q82q3L4QtgwwqMr0p7bvC3Tlco1xm4BHcQ15w==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-rust@0.0.3':
-    resolution: {integrity: sha512-KObhjEPKWy1/4waExuMzNFlpwYNK9cw6/7kmkxOlk0otO8QvRQDlk6A/aEXvLmFftrN8L1bIecEgZxNoEcn3MA==}
+  '@ast-grep/lang-rust@0.0.4':
+    resolution: {integrity: sha512-LUYigVWdyI8hyp8s5Yrm8LWQXzCHBpPoNv2ula45EY5bBRk0EQ+LXGZgxTZ22CKuWbmsnhhiJtF6cBwHRw6D/A==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-scala@0.0.3':
-    resolution: {integrity: sha512-69NlcfZYFX6KDmYN07dIQx4l6+VmO4Lv67RxUxsLGexPDDw0Ez32k9pJnaUEEwGupk6li7YHIcU42uyfJJ09jQ==}
+  '@ast-grep/lang-scala@0.0.4':
+    resolution: {integrity: sha512-NAe+5hQpkLM8Be26ocXA7vXaBX5cU/Uwo97pFlGbSNiDI+z/zxGrCeXL7Ao/Md6hgN+0fUGLhcVZBf9L8M3uFg==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-sql@0.0.4':
-    resolution: {integrity: sha512-h9K7+0eOLOCzZck4MxWmwW86y5D7AAgT/DxfChfnDrj80hxfoTaZUBh5KrYWxJBZhyFvLvZ/srTu6Yg4AOGH3w==}
+  '@ast-grep/lang-sql@0.0.5':
+    resolution: {integrity: sha512-PQw3JX5Ot/Xhbx1x2H+hT51042CogOVfYNtLo1Z/oe8jBRmghfHbPTAbA49PBgbcT9IGtOxppDCRNG/i4+/Uqw==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-swift@0.0.3':
-    resolution: {integrity: sha512-uKNn7IP4jUIKyUtpTcHxsM4McdWEC7v6Oc2a2pg6adOyY5tYy6R40ZWa1C8tolUq64GqXLnsPjQHTe0G5brQGg==}
+  '@ast-grep/lang-swift@0.0.5':
+    resolution: {integrity: sha512-tuPBT05HUW7KEmPRfp/pPdwE/tl9Mra+xPPfR3OdzzfmqiNCl/NfUIsLZNTM3YgSk7LzwiFEAXKLxdqXh+WF8Q==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-toml@0.0.5':
-    resolution: {integrity: sha512-1+6PAxmPyu4LHpwLzXOtjUrK5DtBEhl+wOKT4kangy1+0Ys6QLpSEov9LYZdgB3f61wPG+Mugbp131t3mAP06Q==}
+  '@ast-grep/lang-toml@0.0.6':
+    resolution: {integrity: sha512-D/lUobIai0/8hnMGEEVmNtZnGLk1+WzY1REuAL2Q0Hxy8S+yna/He0ITSf94REgf5iLJP/kBzIh1/AMnTpWJQg==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-tsx@0.0.3':
-    resolution: {integrity: sha512-E/MnZxMYm/uyD2mYyOC6yYWQV+hN3lxGZUKn1C9Y5pzJkzuamYHCkcGz9RhVqH2l76M6bSOf6wd9wclELe6CkA==}
+  '@ast-grep/lang-tsx@0.0.4':
+    resolution: {integrity: sha512-1Aduy3MTn0NGBRWdpTUbVdMHswtSQavBsl2RhrlXvVYEOoMTC0vdbdnZH0tM+3am4qEI3LFECNd3z5QBKG610g==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-typescript@0.0.3':
-    resolution: {integrity: sha512-shguHGyN4IDVi+iCkhU94iJA7R4QgTiP1nWpc1dntTw6jbyOH++2S9ibDNiHy9uyHkvML58etoPQRaQPk6Bc9Q==}
+  '@ast-grep/lang-typescript@0.0.4':
+    resolution: {integrity: sha512-668IL2nLZKcI5dZEzAiL0r75IkpxfwyuhwR0V7LyMAnm+WKiszsFni2mR45CIhzWs9524jbCBFpvqMjx2m2rfA==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
 
-  '@ast-grep/lang-yaml@0.0.2':
-    resolution: {integrity: sha512-kiV82Udo7Jat7fBq9OzJBdn/d7R0qd355ruBiwM7aTPlE5vtIaKFr+l3pkfTUEefgI8Ow8QHFJxsaOiQmkEYOw==}
+  '@ast-grep/lang-yaml@0.0.3':
+    resolution: {integrity: sha512-Bhw8RDdqyqS52r+aL+EzBtzEs5oMsHGAbBBZzvUNUuEWEgF9HOBXaWwJXh/rpx+V0oPiVv+0l2+ixi+bgUatoA==}
     peerDependencies:
-      tree-sitter-cli: 0.25.6
+      tree-sitter-cli: 0.25.8
     peerDependenciesMeta:
       tree-sitter-cli:
         optional: true
@@ -413,8 +413,8 @@ packages:
     resolution: {integrity: sha512-lhuekQ5khQd70GaHatR+Ge4AcYtdYjzO372TlXI7cQOdvDcrL5MOR7CnQXvUe1cuJHTx2UJd42KK6z6Qza8Tjw==}
     engines: {node: '>= 10'}
 
-  '@ast-grep/setup-lang@0.0.3':
-    resolution: {integrity: sha512-+ZNOuf0r7ABVwOANrrQpUrUv7xyuhsZGyQ88WZCH/euQmIEvSH3JsUFevg/60M7hi8NVh4vfSQs6ajTpumSzxg==}
+  '@ast-grep/setup-lang@0.0.4':
+    resolution: {integrity: sha512-us5L9CU4pc/yLQbO82v7gkpwa66qRoQRJ3P+s36EC6ZXiYpQVbd13PLgh9bQ/LhGljEb/pcli0uclN/+S3IMSw==}
 
   '@babel/helper-string-parser@7.27.1':
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
@@ -773,8 +773,8 @@ packages:
     resolution: {integrity: sha512-4SaFZCNfJqvk/kenHpI8xvN42DMaoycy4PzKc5otHxRswww1kAt82OlBuwRVLofCACCTZEcla2Ydxv8scMXaTg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@gerrit0/mini-shiki@3.6.0':
-    resolution: {integrity: sha512-KaeJvPNofTEZR9EzVNp/GQzbQqkGfjiu6k3CXKvhVTX+8OoAKSX/k7qxLKOX3B0yh2XqVAc93rsOu48CGt2Qug==}
+  '@gerrit0/mini-shiki@3.14.0':
+    resolution: {integrity: sha512-c5X8fwPLOtUS8TVdqhynz9iV0GlOtFUT1ppXYzUUlEXe4kbZ/mvMT8wXoT8kCwUka+zsiloq7sD3pZ3+QVTuNQ==}
 
   '@humanfs/core@0.19.1':
     resolution: {integrity: sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==}
@@ -938,17 +938,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@shikijs/engine-oniguruma@3.6.0':
-    resolution: {integrity: sha512-nmOhIZ9yT3Grd+2plmW/d8+vZ2pcQmo/UnVwXMUXAKTXdi+LK0S08Ancrz5tQQPkxvjBalpMW2aKvwXfelauvA==}
+  '@shikijs/engine-oniguruma@3.14.0':
+    resolution: {integrity: sha512-TNcYTYMbJyy+ZjzWtt0bG5y4YyMIWC2nyePz+CFMWqm+HnZZyy9SWMgo8Z6KBJVIZnx8XUXS8U2afO6Y0g1Oug==}
 
-  '@shikijs/langs@3.6.0':
-    resolution: {integrity: sha512-IdZkQJaLBu1LCYCwkr30hNuSDfllOT8RWYVZK1tD2J03DkiagYKRxj/pDSl8Didml3xxuyzUjgtioInwEQM/TA==}
+  '@shikijs/langs@3.14.0':
+    resolution: {integrity: sha512-DIB2EQY7yPX1/ZH7lMcwrK5pl+ZkP/xoSpUzg9YC8R+evRCCiSQ7yyrvEyBsMnfZq4eBzLzBlugMyTAf13+pzg==}
 
-  '@shikijs/themes@3.6.0':
-    resolution: {integrity: sha512-Fq2j4nWr1DF4drvmhqKq8x5vVQ27VncF8XZMBuHuQMZvUSS3NBgpqfwz/FoGe36+W6PvniZ1yDlg2d4kmYDU6w==}
+  '@shikijs/themes@3.14.0':
+    resolution: {integrity: sha512-fAo/OnfWckNmv4uBoUu6dSlkcBc+SA1xzj5oUSaz5z3KqHtEbUypg/9xxgJARtM6+7RVm0Q6Xnty41xA1ma1IA==}
 
-  '@shikijs/types@3.6.0':
-    resolution: {integrity: sha512-cLWFiToxYu0aAzJqhXTQsFiJRTFDAGl93IrMSBNaGSzs7ixkLfdG6pH11HipuWFGW5vyx4X47W8HDQ7eSrmBUg==}
+  '@shikijs/types@3.14.0':
+    resolution: {integrity: sha512-bQGgC6vrY8U/9ObG1Z/vTro+uclbjjD/uG58RvfxKZVD5p9Yc1ka3tVyEFy7BNJLzxuWyHH5NWynP9zZZS59eQ==}
 
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
@@ -1289,8 +1289,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@10.1.5:
-    resolution: {integrity: sha512-zc1UmCpNltmVY34vuLRV61r1K27sWuX39E+uyUnY8xS2Bex88VV9cugG+UZbRSRGtGyFboj+D8JODyme1plMpw==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -1396,8 +1396,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  get-tsconfig@4.10.1:
-    resolution: {integrity: sha512-auHyJ4AgMz7vgS8Hp3N6HXSmlMdUyhSUrfBF16w153rxtLIEOE+HGqaBppczZvnHLqQJfiHotCYpNhl0lUROFQ==}
+  get-tsconfig@4.13.0:
+    resolution: {integrity: sha512-1VKTZJCwBrvbd+Wn3AOgQP/2Av+TfTCOlE4AcRJE72W1ksZXbAx8PPBR9RzgTeSPzlPMHrbANMH3LbltH73wxQ==}
 
   glob-parent@5.1.2:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
@@ -1893,12 +1893,12 @@ packages:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
 
-  typedoc@0.28.5:
-    resolution: {integrity: sha512-5PzUddaA9FbaarUzIsEc4wNXCiO4Ot3bJNeMF2qKpYlTmM9TTaSHQ7162w756ERCkXER/+o2purRG6YOAv6EMA==}
+  typedoc@0.28.14:
+    resolution: {integrity: sha512-ftJYPvpVfQvFzpkoSfHLkJybdA/geDJ8BGQt/ZnkkhnBYoYW6lBgPQXu6vqLxO4X75dA55hX8Af847H5KXlEFA==}
     engines: {node: '>= 18', pnpm: '>= 10'}
     hasBin: true
     peerDependencies:
-      typescript: 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x || 5.6.x || 5.7.x || 5.8.x
+      typescript: 5.0.x || 5.1.x || 5.2.x || 5.3.x || 5.4.x || 5.5.x || 5.6.x || 5.7.x || 5.8.x || 5.9.x
 
   typescript-eslint@8.34.0:
     resolution: {integrity: sha512-MRpfN7uYjTrTGigFCt8sRyNqJFhjN0WwZecldaqhWm+wy0gaRt8Edb/3cuUy0zdq2opJWT6iXINKAtewnDOltQ==}
@@ -2017,8 +2017,8 @@ packages:
     resolution: {integrity: sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ==}
     engines: {node: '>=12'}
 
-  yaml@2.8.0:
-    resolution: {integrity: sha512-4lLa/EcQCB0cJkyts+FpIRx5G/llPxfP6VQU5KByHEhLxY3IJCH0f0Hy1MHI8sClTvsIb8qwRJ6R/ZdlDJ/leQ==}
+  yaml@2.8.1:
+    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -2033,113 +2033,113 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@ast-grep/lang-angular@0.0.4':
+  '@ast-grep/lang-angular@0.0.6':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-bash@0.0.3':
+  '@ast-grep/lang-bash@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-c@0.0.2':
+  '@ast-grep/lang-c@0.0.3':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-cpp@0.0.2':
+  '@ast-grep/lang-cpp@0.0.3':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-csharp@0.0.2':
+  '@ast-grep/lang-csharp@0.0.3':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-css@0.0.3':
+  '@ast-grep/lang-css@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-dart@0.0.3':
+  '@ast-grep/lang-dart@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-elixir@0.0.3':
+  '@ast-grep/lang-elixir@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-go@0.0.2':
+  '@ast-grep/lang-go@0.0.3':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-haskell@0.0.3':
+  '@ast-grep/lang-haskell@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-html@0.0.3':
+  '@ast-grep/lang-html@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-java@0.0.3':
+  '@ast-grep/lang-java@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-javascript@0.0.3':
+  '@ast-grep/lang-javascript@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-json@0.0.3':
+  '@ast-grep/lang-json@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-kotlin@0.0.3':
+  '@ast-grep/lang-kotlin@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-lua@0.0.3':
+  '@ast-grep/lang-lua@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-php@0.0.3':
+  '@ast-grep/lang-php@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-python@0.0.2':
+  '@ast-grep/lang-python@0.0.3':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-ruby@0.0.3':
+  '@ast-grep/lang-ruby@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-rust@0.0.3':
+  '@ast-grep/lang-rust@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-scala@0.0.3':
+  '@ast-grep/lang-scala@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-sql@0.0.4':
+  '@ast-grep/lang-sql@0.0.5':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-swift@0.0.3':
+  '@ast-grep/lang-swift@0.0.5':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-toml@0.0.5':
+  '@ast-grep/lang-toml@0.0.6':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-tsx@0.0.3':
+  '@ast-grep/lang-tsx@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-typescript@0.0.3':
+  '@ast-grep/lang-typescript@0.0.4':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
-  '@ast-grep/lang-yaml@0.0.2':
+  '@ast-grep/lang-yaml@0.0.3':
     dependencies:
-      '@ast-grep/setup-lang': 0.0.3
+      '@ast-grep/setup-lang': 0.0.4
 
   '@ast-grep/napi-darwin-arm64@0.38.5':
     optional: true
@@ -2180,7 +2180,7 @@ snapshots:
       '@ast-grep/napi-win32-ia32-msvc': 0.38.5
       '@ast-grep/napi-win32-x64-msvc': 0.38.5
 
-  '@ast-grep/setup-lang@0.0.3': {}
+  '@ast-grep/setup-lang@0.0.4': {}
 
   '@babel/helper-string-parser@7.27.1': {}
 
@@ -2392,12 +2392,12 @@ snapshots:
       '@eslint/core': 0.15.0
       levn: 0.4.1
 
-  '@gerrit0/mini-shiki@3.6.0':
+  '@gerrit0/mini-shiki@3.14.0':
     dependencies:
-      '@shikijs/engine-oniguruma': 3.6.0
-      '@shikijs/langs': 3.6.0
-      '@shikijs/themes': 3.6.0
-      '@shikijs/types': 3.6.0
+      '@shikijs/engine-oniguruma': 3.14.0
+      '@shikijs/langs': 3.14.0
+      '@shikijs/themes': 3.14.0
+      '@shikijs/types': 3.14.0
       '@shikijs/vscode-textmate': 10.0.2
 
   '@humanfs/core@0.19.1': {}
@@ -2516,20 +2516,20 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.43.0':
     optional: true
 
-  '@shikijs/engine-oniguruma@3.6.0':
+  '@shikijs/engine-oniguruma@3.14.0':
     dependencies:
-      '@shikijs/types': 3.6.0
+      '@shikijs/types': 3.14.0
       '@shikijs/vscode-textmate': 10.0.2
 
-  '@shikijs/langs@3.6.0':
+  '@shikijs/langs@3.14.0':
     dependencies:
-      '@shikijs/types': 3.6.0
+      '@shikijs/types': 3.14.0
 
-  '@shikijs/themes@3.6.0':
+  '@shikijs/themes@3.14.0':
     dependencies:
-      '@shikijs/types': 3.6.0
+      '@shikijs/types': 3.14.0
 
-  '@shikijs/types@3.6.0':
+  '@shikijs/types@3.14.0':
     dependencies:
       '@shikijs/vscode-textmate': 10.0.2
       '@types/hast': 3.0.4
@@ -2689,7 +2689,7 @@ snapshots:
       '@typescript/native-preview-win32-arm64': 7.0.0-dev.20250613.1
       '@typescript/native-preview-win32-x64': 7.0.0-dev.20250613.1
 
-  '@vitest/coverage-v8@3.2.3(vitest@3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))':
+  '@vitest/coverage-v8@3.2.3(vitest@3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1))':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 1.0.2
@@ -2704,7 +2704,7 @@ snapshots:
       std-env: 3.9.0
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)
+      vitest: 3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -2716,13 +2716,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.3(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))':
+  '@vitest/mocker@3.2.3(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 3.2.3
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)
+      vite: 6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1)
 
   '@vitest/pretty-format@3.2.3':
     dependencies:
@@ -2925,7 +2925,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@10.1.5(eslint@9.29.0(jiti@2.4.2)):
+  eslint-config-prettier@10.1.8(eslint@9.29.0(jiti@2.4.2)):
     dependencies:
       eslint: 9.29.0(jiti@2.4.2)
 
@@ -3054,7 +3054,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  get-tsconfig@4.10.1:
+  get-tsconfig@4.13.0:
     dependencies:
       resolve-pkg-maps: 1.0.0
     optional: true
@@ -3639,7 +3639,7 @@ snapshots:
   tsx@4.19.2:
     dependencies:
       esbuild: 0.23.1
-      get-tsconfig: 4.10.1
+      get-tsconfig: 4.13.0
     optionalDependencies:
       fsevents: 2.3.3
     optional: true
@@ -3648,14 +3648,14 @@ snapshots:
     dependencies:
       prelude-ls: 1.2.1
 
-  typedoc@0.28.5(typescript@5.8.3):
+  typedoc@0.28.14(typescript@5.8.3):
     dependencies:
-      '@gerrit0/mini-shiki': 3.6.0
+      '@gerrit0/mini-shiki': 3.14.0
       lunr: 2.3.9
       markdown-it: 14.1.0
       minimatch: 9.0.5
       typescript: 5.8.3
-      yaml: 2.8.0
+      yaml: 2.8.1
 
   typescript-eslint@8.34.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
@@ -3677,13 +3677,13 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-node@3.2.3(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0):
+  vite-node@3.2.3(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1):
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)
+      vite: 6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -3698,7 +3698,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0):
+  vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.6(picomatch@4.0.2)
@@ -3710,13 +3710,13 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.4.2
       tsx: 4.19.2
-      yaml: 2.8.0
+      yaml: 2.8.1
 
-  vitest@3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0):
+  vitest@3.2.3(@types/debug@4.1.12)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.3
-      '@vitest/mocker': 3.2.3(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0))
+      '@vitest/mocker': 3.2.3(vite@6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1))
       '@vitest/pretty-format': 3.2.3
       '@vitest/runner': 3.2.3
       '@vitest/snapshot': 3.2.3
@@ -3734,8 +3734,8 @@ snapshots:
       tinyglobby: 0.2.14
       tinypool: 1.1.0
       tinyrainbow: 2.0.0
-      vite: 6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)
-      vite-node: 3.2.3(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.0)
+      vite: 6.3.5(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1)
+      vite-node: 3.2.3(jiti@2.4.2)(tsx@4.19.2)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/debug': 4.1.12
@@ -3776,6 +3776,6 @@ snapshots:
       string-width: 5.1.2
       strip-ansi: 7.1.0
 
-  yaml@2.8.0: {}
+  yaml@2.8.1: {}
 
   yocto-queue@0.1.0: {}
